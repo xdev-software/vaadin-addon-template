@@ -7,5 +7,3 @@ overrides:
   "open": "npm:empty-npm-package@1.0.0"
   # transform-ast test only
   "nanobench": "npm:empty-npm-package@1.0.0"
-  # Disable telemetry
-  "@vaadin/vaadin-usage-statistics": "npm:empty-npm-package@1.0.0"
