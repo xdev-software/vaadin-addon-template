@@ -421,7 +421,8 @@ If you are 100% sure that you escaped the value properly and you have no better 
 				<value>
 <![CDATA[
 //ConstructorCall[pmd-java:typeIs('com.vaadin.flow.component.Html')] |
-//MethodCall[@MethodName='setAttribute' and //ImportDeclaration[starts-with(@PackageName,'com.vaadin')]]/ArgumentList/StringLiteral[1][contains(lower-case(@Image),'html')]
+//MethodCall[@MethodName='setAttribute' and //ImportDeclaration[starts-with(@PackageName,'com.vaadin')]]/ArgumentList/StringLiteral[1][contains(lower-case(@Image),'html')] |
+//MethodCall[pmd-java:matchesSig('com.vaadin.flow.dom.Element#setProperty(java.lang.String,java.lang.String)')]/ArgumentList/StringLiteral[1][contains(lower-case(@Image),'html')]
 ]]>
 				</value>
 			</property>
