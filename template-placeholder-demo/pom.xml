@@ -151,6 +151,12 @@
 							</exclude>
 						</excludes>
 					</frontendScanner>
+					<!-- Disable not required post installs -->
+					<excludePostinstallPackages>
+						<package>.</package>
+						<package>esbuild</package>
+						<package>@vaadin/vaadin-usage-statistics</package>
+					</excludePostinstallPackages>
 				</configuration>
 			</plugin>
 			<plugin>
