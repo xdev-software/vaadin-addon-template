@@ -27,7 +27,6 @@ You should have the following things installed:
   * Recommended setup actions
     * Disable not needed plugins
     * Disable [telemetry](https://www.jetbrains.com/help/idea/settings-usage-statistics.html)
-    * Consider [disabling the integrated webserver for security reasons](https://intellij-support.jetbrains.com/hc/en-us/community/posts/8125278285586-Internal-Local-ports-63342-6942?page=1#community_comment_8141506876562) using `-Didea.builtin.server.disabled=true`
     * Configure the available memory
   * Import the project
   * You will get prompted to install the required plugins
